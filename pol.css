@@ -1,0 +1,178 @@
+body{
+    background-color: #fafafa;
+    margin: 0;
+}
+
+header{
+    overflow: hidden;
+    border: 1px solid silver;
+    background: rgb(199,207,255);
+    background: linear-gradient(50deg, rgba(199,207,255,1) 0%, rgba(209,209,255,1) 29%, rgba(254,254,254,1) 29%, rgba(198,198,255,1) 100%);
+}
+
+header div span{
+    font-style: italic;
+}
+
+header div h1{
+    font-family: sans-serif; 
+}
+
+header nav{
+float: right;
+line-height: 70px;
+margin-right: 120px;
+margin-bottom: 0px;
+}
+
+header nav a{
+font-family: arial;
+font-size: 20px;
+display: inline-block;
+color: black;
+text-decoration: none;
+padding: 10px 20px;
+line-height: normal;
+font-weight: 500;
+-webkit-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+
+header nav a:hover{
+    background: #f56f3a;
+border-radius: 50px;
+}
+
+.h1reddit{
+    margin-top: 1%;
+    position: absolute;
+    color: black; 
+    text-decoration: none; 
+    float: left;
+    left: 5px;  
+}
+
+
+footer{
+    background: #202020;
+    color: white;
+    margin-top: 5%;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+
+.all{
+    width: 100%;
+    margin: auto;
+}
+
+.zv456{
+    display: flex; 
+}
+
+.infoC{
+    max-width: 300px;
+}
+
+.infoC h2{
+    font-size: 22px; 
+}
+
+.infoC p{
+    margin-left: 2%;
+    font-size: 16px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.SocialM{
+    margin-left: 30px; 
+    max-width: 300px;
+}
+
+.SocialM h2{
+    font-size: 22px;
+}
+
+.SocialM .row{
+    margin-top: 20px;
+    display: flex; 
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7;
+}
+
+.zv556{
+    width: 100%;
+    background: #101010;
+    justify-content: space-between;
+    display: flex;
+}
+
+.copy p{
+    margin-left: 3%;
+}
+
+.term a{
+    text-decoration: none;
+    color: white; 
+}
+
+.po718{
+    margin-top: 2%;
+    background: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid #efefef;
+}
+
+.po718 h1, .pp637{
+    text-align: center;
+}
+
+.po718 p{
+    font-family: Arial;
+}
+
+span{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.goback{
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+@media screen and (max-width: 670px) {
+    header nav a{
+position: relative;
+display: flex;
+padding: 10px 5px;  
+margin-right: 0;  
+right: 3%;
+    }
+
+    header nav{
+margin-right: 10px;
+margin-bottom: 5px; 
+    }
+
+    .goback{
+        top: 10%;
+       left: 2%;   
+    }
+}
